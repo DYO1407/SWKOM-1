@@ -10,8 +10,8 @@ namespace BusinessLogic.Entities
     public class Document
     {
         public Int32 Id { get; set; }
-        public Int32? Correspondent { get; set; }
-        public Int32? DocumentType { get; set; }
+        public Correspondents Correspondent { get; set; }
+        public  DocumentType DocumentType { get; set; }
         public Int32? StoragePath { get; set; }
 
         public string? Title { get; set; }

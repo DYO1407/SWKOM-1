@@ -19,6 +19,7 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 using Newtonsoft.Json;
 using NPaperless.Services.Attributes;
 using NPaperless.Services.DTOs;
+using AutoMapper;
 
 namespace NPaperless.Services.Controllers
 { 
@@ -27,7 +28,17 @@ namespace NPaperless.Services.Controllers
     /// </summary>
     [ApiController]
     public class CorrespondentsApiController : ControllerBase
-    { 
+    {
+
+
+
+        private readonly IMapper _mapper;
+
+
+        public CorrespondentsApiController(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
         /// <summary>
         /// 
         /// </summary>

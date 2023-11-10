@@ -24,6 +24,7 @@ using NPaperless.Services.Authentication;
 using NPaperless.Services.Filters;
 using NPaperless.Services.OpenApi;
 using NPaperless.Services.Formatters;
+using NPaperless.Services.MappingProfile;
 
 namespace NPaperless.Services
 {
@@ -109,6 +110,9 @@ namespace NPaperless.Services
               .AllowAnyMethod();
    });
 });
+
+
+            services.AddAutoMapper(typeof(ServiceMappingProfile));
         }
 
         /// <summary>

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic.Entities
 {
-    public class Correspondent
+    public class Correspondents
 
     {
         public Int64 Id { get; set; }

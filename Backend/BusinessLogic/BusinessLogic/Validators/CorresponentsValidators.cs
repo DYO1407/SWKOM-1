@@ -8,7 +8,7 @@ using BusinessLogic.Entities;
 
 namespace BusinessLogic.Validators
 {
-    public class CorrespondentsValidator : AbstractValidator<Correspondent>
+    public class CorrespondentsValidator : AbstractValidator<Correspondents>
 
     {
       public CorrespondentsValidator() {

@@ -12,13 +12,13 @@ namespace BusinessLogic.Interfaces
 
     {
 
-        Correspondent Create(Correspondent correspondent);
+        Correspondents Create(Correspondents correspondent);
 
         bool Delete(int id);
 
-        ICollection<Correspondent> GetAll();
+        ICollection<Correspondents> GetAll();
 
-        Correspondent Update(int id, Correspondent correspondent);
+        Correspondents Update(int id, Correspondents correspondent);
 
     }
 }

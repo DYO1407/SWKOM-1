@@ -10,7 +10,7 @@ namespace NPaperless.Services.MappingProfile
 
         public ServiceMappingProfile()
         {
-            CreateMap<DTOs.Correspondent, BusinessLogic.Entities.Correspondent>().ReverseMap();
+            CreateMap<DTOs.Correspondent, BusinessLogic.Entities.Correspondents>().ReverseMap();
             CreateMap<DTOs.Document, BusinessLogic.Entities.Document>().ReverseMap();
             CreateMap<DTOs.DocumentType, BusinessLogic.Entities.DocumentType>().ReverseMap();
             CreateMap<Tag, DocumentTag>().ReverseMap();

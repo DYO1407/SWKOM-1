@@ -59,7 +59,7 @@ namespace NPaperless.Services.Controllers
         try
         {
             // Mapping von DTO zu Entität
-            var correspondentEntity = _mapper.Map<BusinessLogic.Entities.Correspondent>(newCorrespondent);
+            var correspondentEntity = _mapper.Map<BusinessLogic.Entities.Correspondents>(newCorrespondent);
 
             //Businesslogic todo 
 

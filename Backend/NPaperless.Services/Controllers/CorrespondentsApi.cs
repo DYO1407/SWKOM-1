@@ -39,6 +39,11 @@ namespace NPaperless.Services.Controllers
         {
             _mapper = mapper;
         }
+
+        public CorrespondentsApiController()
+        {
+
+        }
         /// <summary>
         /// 
         /// </summary>
